@@ -49,9 +49,9 @@ class product {
         var loader = new T.TextureLoader();
         loader.setPath('./images/视络疏六面图/');
         var mats = [
-            '蓝A3.jpg', '蓝A5.jpg',
-            '蓝A6.jpg', '蓝A1.jpg',
-            '蓝A2.jpg', '蓝A4.jpg'
+            '绿A3.jpg', '绿A5.jpg',
+            '绿A6.jpg', '绿A1.jpg',
+            '绿A2.jpg', '绿A4.jpg'
         ].map(pic => {
             return new T.MeshLambertMaterial({ map: loader.load(pic) ,color:"#ffffff"});
         });
