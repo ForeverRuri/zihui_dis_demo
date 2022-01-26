@@ -49,8 +49,8 @@ class product {
         var loader = new T.TextureLoader();
         loader.setPath('./images/好米妈妈六面图/');
         var mats = [
-            '右1.jpg', '左1.jpg',
-            '上顶盖.jpg', '下底盖.jpg',
+            '右1.png', '左1.png',
+            '上顶盖.jpg', '下低盖.jpg',
             '前1.png', '后1.png'
         ].map(pic => {
             return new T.MeshLambertMaterial({ map: loader.load(pic) ,color:"#ffffff"});
