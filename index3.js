@@ -47,11 +47,11 @@ class product {
     add_cube() {
         this.cubeGeo = new T.BoxBufferGeometry(1.06, 2.710, 0.658)
         var loader = new T.TextureLoader();
-        loader.setPath('./images/好米妈妈六面图/');
+        loader.setPath('./images/百位藏肉青稞饼/');
         var mats = [
-            '右1.png', '左1.png',
-            '上顶盖1.jpg', '下低盖6.jpg',
-            '前1.png', '后1.png'
+            '百位藏肉青稞饼右侧面.jpg', '百位藏肉青稞饼左侧面.jpg',
+            '百位藏肉青稞饼上侧面.jpg', '百位藏肉青稞饼下侧面.jpg',
+            '百位藏肉青稞饼正面1.jpg', '百位藏肉青稞饼背面.jpg'
         ].map(pic => {
             return new T.MeshLambertMaterial({ map: loader.load(pic) ,color:"#ffffff"});
         });
