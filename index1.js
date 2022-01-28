@@ -47,11 +47,11 @@ class product {
     add_cube() {
         this.cubeGeo = new T.BoxBufferGeometry(1.06, 2.710, 0.658)
         var loader = new T.TextureLoader();
-        loader.setPath('./images/视络疏六面图/');
+        loader.setPath('./images/视络疏28新/');
         var mats = [
-            '蓝A3.jpg', '蓝A5.jpg',
-            '蓝A6.jpg', '蓝A1.jpg',
-            '蓝A2.jpg', '蓝A4.jpg'
+            '蓝右.jpg', '蓝左.jpg',
+            '蓝上.jpg', '蓝下.jpg',
+            '蓝正.jpg', '蓝背.jpg'
         ].map(pic => {
             return new T.MeshLambertMaterial({ map: loader.load(pic) ,color:"#ffffff"});
         });
