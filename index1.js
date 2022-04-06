@@ -45,7 +45,7 @@ class product {
     }
 
     add_cube() {
-        this.cubeGeo = new T.BoxBufferGeometry(1.06, 2.710, 0.658)
+        this.cubeGeo = new T.BoxBufferGeometry(1.378, 1.971, 0.394)
         var loader = new T.TextureLoader();
         loader.setPath('./images/视络疏28新/');
         var mats = [

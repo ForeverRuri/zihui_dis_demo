@@ -45,7 +45,7 @@ class product {
     }
 
     add_cube() {
-        this.cubeGeo = new T.BoxBufferGeometry(1.06, 2.710, 0.658)
+        this.cubeGeo = new T.BoxBufferGeometry(1.039, 1.671, 0.438)
         var loader = new T.TextureLoader();
         loader.setPath('./images/栋食/');
         var mats = [
